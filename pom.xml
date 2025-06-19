@@ -13,6 +13,16 @@
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
+    <!-- ✅ JUnit dependency added -->
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
@@ -23,3 +33,4 @@
         </plugins>
     </build>
 </project>
+
